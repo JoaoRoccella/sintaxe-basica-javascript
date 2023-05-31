@@ -1,2 +1,1 @@
 # sintaxe-basica-javascript
- 
