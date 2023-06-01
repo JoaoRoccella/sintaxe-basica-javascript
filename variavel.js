@@ -1,26 +1,29 @@
 function exemploVar() {
-    var x = 10;
+  console.log("\n", "** Exemplo com 'var'")
   
-    if (true) {
-      var x = 20;
-      console.log(x); // Saída: 20
-    }
-  
-    console.log(x); // Saída: 20 (em vez de 10)
+  var x = 10;
+
+  if (true) {
+    var x = 20;
+    console.log("Valor de 'x' dentro do if: ", x); // Saída: 20
   }
-  
+
+  console.log("Valor de 'x' fora do if: ", x); // Saída: 20 (em vez de 10)
+}
+
 exemploVar();
-  
+
 function exemploLet() {
-    let x = 10;
-  
-    if (true) {
-      let x = 20;
-      console.log(x); // Saída: 20
-    }
-  
-    console.log(x); // Saída: 20 (em vez de 10)
+  console.log("\n", "** Exemplo com 'let'")
+
+  let x = 10;
+
+  if (true) {
+    let x = 20;
+    console.log("Valor de 'x' dentro do if: ", x); // Saída: 20
   }
-  
-  exemploLet();
-  
+
+  console.log("Valor de 'x' fora do if: ", x); // Saída: 20 (em vez de 10)
+}
+
+exemploLet();
