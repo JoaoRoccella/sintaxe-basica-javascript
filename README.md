@@ -101,6 +101,7 @@ console.clear(); // limpa o console
 ## prompt
 
 Faz a leitura de uma entrada do usuário
+
 ```js
 // faz a leitura de uma entrada, simplesmente
 prompt(); 
