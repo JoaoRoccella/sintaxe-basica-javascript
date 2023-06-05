@@ -2,7 +2,7 @@
 
 ## Declaração de variáveis
 
-Para declarar uma variável com escopo de função e bloco, use as palavras reservadas ```let``` (pode ser reatribuída) e ```const``` (não pode ser reatribuída). Utilize sempre uma convenção de nomenclatura como camelCase ou PascalCase, por exemplo. Evite o uso da palavra ```var```, pois ela não obedece às regras convencionais de escopo de variáveis. Não é preciso declarar o tipo das variáveis, pois o JavaScript é **dinamicamente tipado**.
+Para declarar uma variável com escopo de função e bloco, use as palavras reservadas `let` (pode ser reatribuída) e `const` (não pode ser reatribuída). Utilize sempre uma convenção de nomenclatura como camelCase ou PascalCase, por exemplo. Evite o uso da palavra `var`, pois ela não obedece às regras convencionais de escopo de variáveis. Não é preciso declarar o tipo das variáveis, pois o JavaScript é **dinamicamente tipado**.
 
 Exemplos:
 
@@ -13,16 +13,14 @@ let nomeVariavel;
 // declaração de constante
 const nomeConstante = 0;
 
-// Declaração de variável com inicialização
+// Declaração de variável inicializada 
+// (ou seja, com um valor inicial)
 let nomeVariavelInicializada = 20;
 ```
 
 ## If-else (se-senao)
 
 ```js
-// condicao 
-let condicao = true;
-
 if (condicao) {
     // instruções se a condição for verdadeira (true)
     console.log("verdadeiro");
@@ -35,7 +33,6 @@ if (condicao) {
 ## If-elseIf-else (se-senaoSe-senao)
 
 ```js
-
 if (condicao) {
     // instruções se a condição for verdadeira (true)
     console.log("verdadeiro1");
@@ -111,7 +108,11 @@ prompt("Mensagem para o usuário");
 
 // exibe a mensagem e faz a leitura da entrada, atribuindo o
 // valor para a variável
-let variavel = prompt("Mensagem para o usuário");
+let mensagem = prompt("Mensagem para o usuário");
+
+// ATENÇÃO: o valor retornado do prompt() sempre será
+// do tipo string. É preciso realizar uma conversão
+// (parse) para realizar a leitura direta de números;
 ```
 
 ## Conversões
