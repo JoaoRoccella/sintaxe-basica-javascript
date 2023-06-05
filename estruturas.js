@@ -8,7 +8,7 @@ function principal(mensagem) {
 
 }
 
-principal("Esta é a mensagem");
+
 
 
 
